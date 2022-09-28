@@ -3,11 +3,9 @@
 Input: 7
 Output: [0, 1, 1, 2, 3, 5, 6]
 */
-
-
 const number = 7;
 
-const returnArrayFibonacci = number => {
+const returnArrayFibonacci = (number) => {
   const array = [0, 1];
 
   for (let i = 0; i < number - 2; i++) {
