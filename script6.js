@@ -12,15 +12,15 @@ const arr = [
 ];
 
 const returnName = (array) => {
+  const arrayName = [];
   for (let elem of array) {
     const { name, age } = elem;
     
     if (age > 18) {
-      console.log(name);
+      arrayName.push(name);
     }
   }
-
-  return name;
+  return arrayName;
 }
 
-returnName(arr);
+console.log(returnName(arr));
