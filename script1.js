@@ -14,7 +14,7 @@ const users =  [
  { name: 'Tea', price: 10, amount: 14 }
 ];
 
-const getTotalCostProduct = (array_) => {
+const getTotalCostProduct = (array) => {
   const newArr = array.map(elem => {
     elem.total = elem.price * elem.amount;
     delete elem.price;
